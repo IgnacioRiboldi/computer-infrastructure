@@ -9,6 +9,21 @@ Also, in below source, I got the information required to configure the data fram
 
 https://docs.python.org/3/library/datetime.html#format-codes
 
-In problem 2 we applied something new : os.makedirs() this checks that the directory exist, otherwise it would create it.
+In problem 2 we applied something new : os.makedirs() this checks that the directory exist, if it doesn't exist would create it.
 
 https://www.w3schools.com/python/ref_os_makedirs.asp
+
+os.path librery
+
+https://docs.python.org/3/library/os.path.html
+
+os.path.join
+I found this function that can read multiples path at the same time, what is helpful in this case since I have many files in data folder.
+In each sources there are different examples and explanations of how it works.
+https://www.geeksforgeeks.org/python/python-os-path-join-method/
+https://unc-libraries-data.github.io/Python/Files_Packages/Files_Packages.html#:~:text=To%20open%20a%20file%20with,work%20with%20relative%20file%20paths.
+
+os.path.getmtime
+Return the time of last modification of path.
+
+
