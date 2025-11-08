@@ -26,4 +26,18 @@ https://unc-libraries-data.github.io/Python/Files_Packages/Files_Packages.html#:
 os.path.getmtime
 Return the time of last modification of path.
 
+Matplotlib
+https://matplotlib.org/stable/ (Main website of Matplotlib, there is a lot of information and examples)
+https://www.w3schools.com/python/matplotlib_line.asp 
 
+Labels
+https://www.w3schools.com/python/matplotlib_labels.asp
+
+Save plot
+https://www.geeksforgeeks.org/python/how-to-save-a-plot-to-a-file-using-matplotlib/
+
+Group by with Pandas
+https://www.datacamp.com/tutorial/pandas-groupby?utm_cid=19589720821&utm_aid=157156375191&utm_campaign=230119_1-ps-other~dsa~tofu_2-b2c_3-emea_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na&utm_loc=20478-&utm_mtd=-c&utm_kw=&utm_source=google&utm_medium=paid_search&utm_content=ps-other~emea-en~dsa~tofu~tutorial~python&gad_source=1&gad_campaignid=19589720821&gbraid=0AAAAADQ9WsHKCKb3gpUDKI6EKPy7HZkPy&gclid=CjwKCAiA8bvIBhBJEiwAu5ayrKIRAN46OJIp_vD5YsUkeGPA9TLpPnFl-uAXE4DHwenANaVBs3I0fhoC6_kQAvD_BwE
+
+Extra help
+https://chatgpt.com/
