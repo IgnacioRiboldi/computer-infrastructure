@@ -41,3 +41,6 @@ https://www.datacamp.com/tutorial/pandas-groupby?utm_cid=19589720821&utm_aid=157
 
 Extra help
 https://chatgpt.com/
+
+Shebang
+https://sqlpad.io/tutorial/python-shebang/#:~:text=The%20shebang%20line%20in%20a%20Python%20script%20is%20like%20a,%23!%2Fusr%2Fbin%2Fpython3%20.
