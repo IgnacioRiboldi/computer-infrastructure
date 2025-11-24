@@ -1,6 +1,8 @@
 name: faang
 
-on: push
+on:
+  schedule: #Scheduling the self running
+  -cron: '0.8 * * 0' # 8am every Sunday.
 
 jobs:
   faang:
