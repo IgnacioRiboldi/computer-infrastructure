@@ -42,6 +42,9 @@ https://www.datacamp.com/tutorial/pandas-groupby?utm_cid=19589720821&utm_aid=157
 Extra help
 https://chatgpt.com/
 
+
+Problem 3:
+
 Shebang
 https://sqlpad.io/tutorial/python-shebang/#:~:text=The%20shebang%20line%20in%20a%20Python%20script%20is%20like%20a,%23!%2Fusr%2Fbin%2Fpython3%20.
 
@@ -49,3 +52,13 @@ As per my understanding, the line added at the beggining of the program :
 #!/usr/bin/env python3 faang.py
 It helps to developers on macOS and Linux to execute the script, otherwise they won't be able to run it using the code: "chmod +x faang.py".
 For windows developers there is no need, and they can execute the program with "python faan.py"
+
+Problem 4: Automation
+https://www.youtube.com/watch?v=mFFXuXjVgkU this youtube video helped me showing step by step how to create a workflow in github.
+
+Scheduling automation:
+https://woliveiras.com/posts/how-to-schedule-workflows-github-actions/?utm_source=chatgpt.com
+https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
+
+Extra documentation:
+https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows
