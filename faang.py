@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 faang.py
+#!/usr/bin/env python3
 
 # This code is an script that generates data from the last 5 days of some tickers and then create a plot with them.
 # By Ignacio Riboldi
