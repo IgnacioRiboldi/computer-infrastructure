@@ -1,0 +1,7 @@
+name: faang
+
+on: push
+
+jobs:
+  faang:
+    
