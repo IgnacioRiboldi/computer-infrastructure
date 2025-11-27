@@ -1,9 +1,16 @@
 name: faang
 
 on:
-  schedule: #Scheduling the self running
-  -cron: '0.8 * * 0' # 8am every Sunday.
+  schedule:
+    - cron: '0 8 * * 0'   # Every Sunday at 08:00 UTC
+  workflow_dispatch: # This code allows to do manual runs.
 
 jobs:
   faang:
-    
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run your script
+        run: echo "Hello from Sunday 8am workflow!"
