@@ -2,10 +2,11 @@
 
 To run these codes you might need to install de following dependencies:
 
-pandas
-yfinance
-os
-matplotlib
+pandas - For data manipulation
+yfinance - To get Tickers data from yfinance
+os - Folder manipulation
+matplotlib - For plotting and charts.
+datetime - For timestamp in the file generation name
 
 In you don't count with them, you can easly run "pip install" with each of theam to install them in your codespace.
 
