@@ -15,12 +15,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'  # o la versión de python que necesites
+          python-version: '3.10'  # or any version needed
 
       - name: Install dependencies (if tienes requirements.txt)
         run: |
           python -m pip install --upgrade pip
-          pip install yfinance pandas numpy plotly requests # Instaling since I was having erros while running the flow
+          pip install yfinance pandas matplotlib  
+# Using a pip install to install all the dependencies so the workflow stop giving errors.
 
       - name: Run faang script
         run: python faang.py
