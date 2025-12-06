@@ -3,7 +3,7 @@ name: faang
 on:
   schedule:
     - cron: '0 8 * * 0'   # Every Sunday at 08:00 UTC
-  workflow_dispatch: # This code allows to do manual runs.
+  workflow_dispatch: # This codes allows to do manual runs.
 
 jobs:
   faang:
@@ -12,5 +12,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run your script
-        run: echo "Hello from Sunday 8am workflow!"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'  # o la versión de python que necesites
+
+      - name: Install dependencies (if tienes requirements.txt)
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run faang script
+        run: python faang.py
