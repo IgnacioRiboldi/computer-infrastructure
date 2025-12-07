@@ -25,15 +25,3 @@ jobs:
 
       - name: Run faang script
         run: python faang.py
-
-      - name: Upload plots # Saving plots in plots folder
-        uses: actions/upload-artifact@v4
-        with:
-          name: faang-plots
-          path: plots/    
-
-      - name: Upload data # Saving CSV in data folder
-        uses: actions/upload-artifact@v4
-        with:
-          name: faang-data
-          path: data/     
